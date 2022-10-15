@@ -1,0 +1,6 @@
+The output of the program will be
+Count is 0
+
+As the program returns increment as function and log function and while retuning log function it has message set to 
+Count is 0 so when the increment is called thrice it does increase count value to three but the value is log is not changed as it 
+does not update the value of message for it hence result. 
