@@ -1,0 +1,108 @@
+/*CSS*/
+body{
+  font-family: Lato;
+}
+.sidebar{
+  height: 100%;
+  width: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: grey;
+}
+.sidebar div{  
+  height: 12%;
+  padding-left:8px;
+  display: block;
+}
+
+.header{
+  width: 100%;
+  background-color: #454545;
+  padding: 25px;
+  padding-left: 50px;
+  color: #fff;
+  display: flex;
+}
+
+.header img{
+  margin-right: 20px;
+}
+
+.header .text-content{
+  position: relative;
+}
+.header .text-content .upper-content p{
+  margin: 0;
+}
+.header .text-content .lower-content{
+  position: absolute;
+  bottom: 10px;
+}
+.header .text-content .lower-content span{
+  margin-right: 5px;
+}
+.header .text-content .lower-content span i{
+  font-size: 20px;
+}
+button{
+ color: #0760bf;
+}
+
+.main div{
+  padding-left: 50px;
+  margin-top: 10px;
+}
+.main ul{
+  padding: 0;
+  margin-left: 10px;
+}
+
+.main ul li{
+  display: flex;
+  padding-left: 15px;    
+}
+
+.main ul li:nth-child(odd){
+  background-color: #fff;
+}
+
+.main ul li:nth-child(even){
+  background-color: #F0F0F0;
+}
+
+.main ul li p{
+  width: 25%;
+}
+
+.footer {
+  height: 10%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0760bf;
+  color: white;
+}
+.footer img{
+  text-align: left;
+  height: 100%;
+}
+.footer div{ 
+  text-align: right;
+  float: right; 
+  height: 100%;
+  padding:40px;
+  padding-right: 70px;
+  display: block;
+}
+.footer .song-name{
+  text-align: left;
+  width : 45%;
+}
+.footer .song-name p{
+  margin-right: 100px;
+  margin: 0;
+  margin-bottom: 10px;
+}
